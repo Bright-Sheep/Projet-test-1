@@ -41,6 +41,9 @@ count_lines:
         '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
 	@echo ''
 
+say_hello:
+	echo "Hello World"
+
 # ----------------------------------
 #      UPLOAD PACKAGE TO PYPI
 # ----------------------------------
